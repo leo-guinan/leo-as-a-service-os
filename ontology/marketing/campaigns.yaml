@@ -1,0 +1,18 @@
+campaigns:
+  ProductLaunchCampaign:
+    components:
+      announcement:
+        channels:
+        - blog
+        - email
+        - social
+        success_metrics:
+        - reach
+        - engagement
+    constraints:
+    - All assets must follow brand guidelines
+    metadata:
+      campaign_type: product_launch
+      owner_team: product_marketing
+      target_audience:
+      - EnterpriseCustomer

@@ -1,0 +1,70 @@
+lead_magnets:
+  LeoAsAService:
+    description: "AI system providing access to Leo's expertise"
+    value_proposition: "24/7 access to senior technical guidance"
+    delivery_method: "ai_chat_interface"
+    demonstrates:
+      - "technical_depth"
+      - "implementation_quality"
+      - "ai_architecture_innovation"
+    metrics:
+      - activation_rate
+      - questions_per_user
+      - value_moments  # "aha" interactions
+    
+core_offerings:
+  LetLeoDoIt:
+    price: 475
+    duration: "2_weeks"
+    format: "intensive_consultation"
+    
+    deliverables:
+      discovery:
+        description: "Deep dive into current system"
+        time_allocation: "20%"
+      
+      stabilization_plan:
+        description: "Actionable roadmap to stability"
+        time_allocation: "40%"
+        
+      quick_wins:
+        description: "Immediate improvements implemented"
+        time_allocation: "40%"
+    
+    success_metrics:
+      customer_reported:
+        - stability_improvement: float(0.0, 1.0)
+        - confidence_boost: float(0.0, 1.0)
+        - clarity_gained: float(0.0, 1.0)
+      
+      business_metrics:
+        - completion_rate: float(0.8, 1.0)  # target
+        - upsell_qualification: boolean
+        - nps_score: int(-100, 100)
+    
+  ModelTrainingService:
+    price: 10000
+    duration: "4-6_weeks"
+    format: "done_for_you"
+    
+    deliverables:
+      custom_model:
+        description: "Fine-tuned model for specific use case"
+        specifications:
+          - "domain_specific"
+          - "production_ready"
+          - "documented"
+      
+      deployment_support:
+        description: "Integration and go-live assistance"
+        included_hours: 10
+        
+      training_materials:
+        description: "How to maintain and update"
+        format: ["video", "documentation", "examples"]
+    
+    qualification_requirements:
+      - completed_let_leo_do_it: boolean
+      - clear_use_case: boolean
+      - data_available: boolean
+      - budget_confirmed: boolean

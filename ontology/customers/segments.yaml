@@ -1,0 +1,36 @@
+segments:
+  Vibecoder:
+    description: "Creative builders who prioritize vision over engineering rigor"
+    properties:
+      technical_background: enum["minimal", "self-taught", "creative-focused"]
+      primary_pain_points: 
+        - "unstable_systems"
+        - "maintenance_nightmare" 
+        - "scaling_issues"
+        - "technical_debt"
+      business_stage: enum["prototype", "mvp", "scaling", "struggling"]
+      budget_range: range(500, 50000)
+      decision_timeline: enum["urgent", "quarterly", "exploring"]
+    
+    journey_stages:
+      awareness:
+        entry_points: ["content", "referral", "search", "social"]
+        key_messaging: "Your vision deserves stable foundations"
+        
+      consideration:
+        triggers: ["system_crash", "user_complaints", "investor_pressure"]
+        content_needs: ["case_studies", "quick_wins", "ROI_calculator"]
+        
+      decision:
+        objections: ["cost", "time", "trust", "control"]
+        proof_points: ["testimonials", "portfolio", "guarantees"]
+    
+    qualification_criteria:
+      must_have:
+        - "active_software_project"
+        - "budget >= 475"
+        - "decision_authority"
+      nice_to_have:
+        - "previous_ai_experience"
+        - "clear_technical_vision"
+        - "growth_trajectory"
